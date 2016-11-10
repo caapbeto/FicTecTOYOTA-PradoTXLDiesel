@@ -48,20 +48,18 @@
         <div id="deviceready" class="blink">
             <p class="event listening">Connecting to Device</p>
             <p class="event received">Device is Ready</p>
+            <br><br>
+            <a style="font-weight:bold" onClick="javascript:linkotro('PradoTXL-Diesel')" target="_self">Prado TXL Diesel</a><br><br>
+            <a style="font-weight:bold" onClick="javascript:linkotro('FortunerXRoadSS')" target="_self">Fortuner XRoad SS</a><br><br>
             
-            <a onClick="javascript:linkotro('PradoTXL')" target="_self">PradoTXL</a><br><br>
-            <a onClick="javascript:linkotro('FJCruiser')" target="_self">FJCruiser</a><br><br>
-            <a onClick="javascript:linkotro('4RunnerLimited')" target="_self">4RunnerLimited</a><br><br>
-            <a onClick="javascript:linkotro('4RunnerSR5')" target="_self">4RunnerSR5</a><br><br>
    
         </div>
     </div>
     
     <script type="text/javascript">
-	function linkotro(linkva){
-		location.href = ''+linkva+'/index.html'; 
-	}
-	
+		function linkotro(linkva){
+			location.href = '../'+linkva+'/index.html'; 
+		}
 	</script>
     
     <script type="text/javascript" src="cordova.js"></script>
